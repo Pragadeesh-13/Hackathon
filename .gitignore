@@ -1,0 +1,121 @@
+# Cattle Breed Recognition .gitignore
+
+# Model files (too large for GitHub)
+models/*.pth
+models/*.pkl
+*.pth
+*.pkl
+
+# Dataset images (too large for GitHub)
+dataset/
+sample_images/
+temp/
+exports/
+
+# Keep model info files but exclude large binary files
+!models/*.json
+!models/*.md
+!models/*.txt
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# Training outputs and checkpoints
+training_history/
+checkpoints/
+results/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Flask instance folder
+instance/
+
+# Node modules (if any)
+node_modules/
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Video and image samples (keep small examples)
+*.mp4
+*.avi
+*.mov
+*.wmv
+sample_videos/
+
+# Keep small example images
+!examples/
+!docs/images/

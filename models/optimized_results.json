@@ -1,0 +1,30 @@
+{
+  "best_accuracy": 27.941176470588236,
+  "breed_accuracies": {
+    "Bhadawari": 0.0,
+    "Gir": 0.0,
+    "Jaffarbadi": 0.0,
+    "Kankrej": 77.77777777777779,
+    "Mehsana": 0.0,
+    "Murrah": 33.33333333333333,
+    "Nagpuri": 20.0,
+    "Ongole": 0.0,
+    "Sahiwal": 83.33333333333334,
+    "Surti": 0.0,
+    "Tharparkar": 50.0
+  },
+  "epoch": 1,
+  "breeds": [
+    "Bhadawari",
+    "Gir",
+    "Jaffarbadi",
+    "Kankrej",
+    "Mehsana",
+    "Murrah",
+    "Nagpuri",
+    "Ongole",
+    "Sahiwal",
+    "Surti",
+    "Tharparkar"
+  ]
+}

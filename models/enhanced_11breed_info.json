@@ -1,0 +1,58 @@
+{
+  "breeds": [
+    "Bhadawari",
+    "Gir",
+    "Jaffarbadi",
+    "Kankrej",
+    "Mehsana",
+    "Murrah",
+    "Nagpuri",
+    "Ongole",
+    "Sahiwal",
+    "Surti",
+    "Tharparkar"
+  ],
+  "num_classes": 11,
+  "best_accuracy": 79.81651376146789,
+  "breed_accuracies": {
+    "Bhadawari": 16.666666666666664,
+    "Gir": 88.88888888888889,
+    "Jaffarbadi": 100.0,
+    "Kankrej": 100.0,
+    "Mehsana": 63.63636363636363,
+    "Murrah": 55.55555555555556,
+    "Nagpuri": 100.0,
+    "Ongole": 88.88888888888889,
+    "Sahiwal": 91.66666666666666,
+    "Surti": 75.0,
+    "Tharparkar": 66.66666666666666
+  },
+  "breed_to_idx": {
+    "Bhadawari": 0,
+    "Gir": 1,
+    "Jaffarbadi": 2,
+    "Kankrej": 3,
+    "Mehsana": 4,
+    "Murrah": 5,
+    "Nagpuri": 6,
+    "Ongole": 7,
+    "Sahiwal": 8,
+    "Surti": 9,
+    "Tharparkar": 10
+  },
+  "idx_to_breed": {
+    "0": "Bhadawari",
+    "1": "Gir",
+    "2": "Jaffarbadi",
+    "3": "Kankrej",
+    "4": "Mehsana",
+    "5": "Murrah",
+    "6": "Nagpuri",
+    "7": "Ongole",
+    "8": "Sahiwal",
+    "9": "Surti",
+    "10": "Tharparkar"
+  },
+  "total_images": 340,
+  "epoch": 4
+}

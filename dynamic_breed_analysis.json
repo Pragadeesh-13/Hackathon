@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-09-17 21:36:35",
+  "breeds": [
+    "Bhadawari",
+    "Gir",
+    "Jaffarbadi",
+    "Kankrej",
+    "Mehsana",
+    "Murrah",
+    "Nagpuri",
+    "Ongole",
+    "Sahiwal",
+    "Surti",
+    "Tharparkar"
+  ],
+  "num_classes": 11,
+  "total_images": 340,
+  "breed_stats": {
+    "Bhadawari": {
+      "count": 14,
+      "quality": "fair"
+    },
+    "Gir": {
+      "count": 22,
+      "quality": "fair"
+    },
+    "Jaffarbadi": {
+      "count": 38,
+      "quality": "good"
+    },
+    "Kankrej": {
+      "count": 44,
+      "quality": "excellent"
+    },
+    "Mehsana": {
+      "count": 27,
+      "quality": "good"
+    },
+    "Murrah": {
+      "count": 47,
+      "quality": "excellent"
+    },
+    "Nagpuri": {
+      "count": 23,
+      "quality": "fair"
+    },
+    "Ongole": {
+      "count": 44,
+      "quality": "excellent"
+    },
+    "Sahiwal": {
+      "count": 30,
+      "quality": "good"
+    },
+    "Surti": {
+      "count": 21,
+      "quality": "fair"
+    },
+    "Tharparkar": {
+      "count": 30,
+      "quality": "good"
+    }
+  }
+}

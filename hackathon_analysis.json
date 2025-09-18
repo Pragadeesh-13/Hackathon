@@ -1,0 +1,143 @@
+{
+  "breeds_analysis": {
+    "Bhadawari": {
+      "count": 28,
+      "files": [
+        "dataset\\Bhadawari\\Bhadawari_1.jpg",
+        "dataset\\Bhadawari\\Bhadawari_10.jpg",
+        "dataset\\Bhadawari\\Bhadawari_30.jpg"
+      ],
+      "status": "good"
+    },
+    "Gir": {
+      "count": 36,
+      "files": [
+        "dataset\\Gir\\Gir_1.JPG",
+        "dataset\\Gir\\Gir_12.jPG",
+        "dataset\\Gir\\Gir_18.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Jaffarbadi": {
+      "count": 57,
+      "files": [
+        "dataset\\Jaffarbadi\\Jaffrabadi_103.jpg",
+        "dataset\\Jaffarbadi\\Jaffrabadi_26.jpg",
+        "dataset\\Jaffarbadi\\Jaffrabadi_30.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Kankrej": {
+      "count": 81,
+      "files": [
+        "dataset\\Kankrej\\Kankrej_1.JPG",
+        "dataset\\Kankrej\\Kankrej_10.jpg",
+        "dataset\\Kankrej\\Kankrej_101.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Mehsana": {
+      "count": 43,
+      "files": [
+        "dataset\\Mehsana\\mehsana_0002.jpg",
+        "dataset\\Mehsana\\mehsana_0003.jpg",
+        "dataset\\Mehsana\\mehsana_0004.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Murrah": {
+      "count": 87,
+      "files": [
+        "dataset\\Murrah\\murrah_0002.jpg",
+        "dataset\\Murrah\\murrah_0003.jpg",
+        "dataset\\Murrah\\murrah_0004.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Nagpuri": {
+      "count": 38,
+      "files": [
+        "dataset\\Nagpuri\\Nagpuri_1.JPG",
+        "dataset\\Nagpuri\\Nagpuri_11.jpg",
+        "dataset\\Nagpuri\\Nagpuri_116.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Ongole": {
+      "count": 79,
+      "files": [
+        "dataset\\Ongole\\Ongole_1.JPG",
+        "dataset\\Ongole\\Ongole_10.jpg",
+        "dataset\\Ongole\\Ongole_101.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Sahiwal": {
+      "count": 57,
+      "files": [
+        "dataset\\Sahiwal\\Sahiwal_1.JPG",
+        "dataset\\Sahiwal\\Sahiwal_10.JPG",
+        "dataset\\Sahiwal\\Sahiwal_107.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Surti": {
+      "count": 40,
+      "files": [
+        "dataset\\Surti\\surti_0001.jpg",
+        "dataset\\Surti\\surti_0003.jpg",
+        "dataset\\Surti\\surti_0004.jpg"
+      ],
+      "status": "excellent"
+    },
+    "Tharparkar": {
+      "count": 54,
+      "files": [
+        "dataset\\Tharparkar\\Tharparkar_1.JPG",
+        "dataset\\Tharparkar\\Tharparkar_10.jpg",
+        "dataset\\Tharparkar\\Tharparkar_11.jpg"
+      ],
+      "status": "excellent"
+    }
+  },
+  "hackathon_config": {
+    "model_config": {
+      "architecture": "resnet50",
+      "pretrained": true,
+      "dropout": 0.3,
+      "learning_rate": 0.0001,
+      "batch_size": 16,
+      "epochs": 100,
+      "early_stopping_patience": 15
+    },
+    "augmentation_config": {
+      "base_augmentations": [
+        "horizontal_flip",
+        "rotation_15",
+        "brightness_0.2",
+        "contrast_0.2",
+        "color_jitter"
+      ],
+      "advanced_augmentations": [
+        "random_perspective",
+        "gaussian_blur",
+        "random_erasing",
+        "cutmix",
+        "mixup"
+      ]
+    },
+    "training_strategy": {
+      "feature_extraction_rounds": 5,
+      "contrastive_learning": true,
+      "hard_negative_mining": true,
+      "cross_breed_discrimination": true,
+      "morphological_features": true
+    },
+    "hackathon_optimizations": {
+      "target_accuracy": 0.95,
+      "margin_threshold": 0.1,
+      "ensemble_models": 3,
+      "test_time_augmentation": true
+    }
+  }
+}
