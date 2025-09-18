@@ -1,0 +1,269 @@
+INDIAN CATTLE & BUFFALO BREED HANDBOOK
+
+(Technical Reference — v2.0 for MCP/Gemini Simulation)
+
+SECTION A – CATTLE BREEDS
+1. GIR (Bos indicus)
+
+Origin & Distribution: Kathiawar region of Gujarat; now spread across India and South America (notably Brazil’s Gir Leiteiro).
+
+Morphology:
+
+Forehead highly convex (“bullock head”), broad poll.
+
+Ears long, pendulous, with inward curl at tips.
+
+Coat: red to white, with speckled patterns.
+
+Body weight: cows 300–430 kg (mean ≈ 380 kg); bulls 500–600 kg.
+
+Height at withers: cows ~122 cm, bulls ~135 cm.
+
+Udder well-developed, prominent teats.
+
+Production:
+
+Average lactation yield: 1900–2600 L (some elite animals >3500 L).
+
+Fat%: 4.5–5.0 (SNF 8.2–8.8).
+
+Peak yield: 6–8 weeks post-calving.
+
+Reproduction:
+
+Age at first calving: 38–45 mo.
+
+Calving interval: 400–450 days (can drop to 380 with high-input feeding).
+
+Service period: 130–150 days.
+
+Wood’s Model Parameters (example):
+
+a=9.5, b=0.22, c=0.0035 (yields realistic curve with moderate persistency).
+
+Genetics & Health:
+
+A2 milk producer (β-casein A2).
+
+High tick & helminth resistance.
+
+Heat tolerance index >85 (on Benezra scale).
+
+Socio-Economic Role:
+
+Prime dairy zebu; exported for tropical dairy development.
+
+Simulation Notes:
+
+Should respond strongly to improved feeding → +20–30 % yield.
+
+Mortality risk very low even under heat stress; fertility remains fairly robust.
+
+2. SAHIWAL
+
+Morphology:
+
+Coat: reddish dun, sometimes with white patches.
+
+Large barrel chest, loose skin, broad forehead.
+
+Avg weight: cows 400–500 kg; bulls 500–600 kg.
+
+Production:
+
+305-day yield: 2500–3500 L in organized farms.
+
+Fat%: 4.6–5.0; SNF ~8.5.
+
+Very good lactation persistency — curve flatter than Gir.
+
+Reproduction:
+
+AFC 34–40 mo; ICI 380–420 days.
+
+Conception rate: 50–60 % at first service.
+
+Traits:
+
+Excellent heat tolerance, one of most productive zebu.
+
+Frequently used in crossbreeding with Holstein/Jersey.
+
+Simulation Notes:
+
+Use as “high-yield indicus” base breed; show improvement under crossbreeding modules.
+
+3. THARPARKAR
+
+Morphology:
+
+White/grey coat, black points. Medium frame, compact body.
+
+Weight: cows 300–400 kg.
+
+Production:
+
+Yield: 1200–2200 L; fat ≈ 4.5 %.
+
+Milk has slightly higher SNF than Gir.
+
+Adaptation:
+
+Survives extreme desert heat (up to 48°C).
+
+Can maintain lactation under sparse grazing.
+
+Simulation Notes:
+
+Highest survival parameter under drought; scale down milk yield only slightly under feed restriction.
+
+4. KANKREJ
+
+Morphology:
+
+Large frame, lyre-shaped horns, silver-grey coat with black muzzle.
+
+Weight: cows 420–500 kg.
+
+Production:
+
+Milk yield 1500–2500 L; fat ~4.8 %.
+
+Also excellent draught breed.
+
+Simulation Notes:
+
+Add “draught work capacity” attribute: 1.2× that of Ongole under same feeding.
+
+5. ONGOLE
+
+Morphology:
+
+Very large white/grey indicus, straight back, muscular legs.
+
+Bulls weigh 500–600 kg.
+
+Production:
+
+Yield: 1000–1500 L; fat ~4.2 %.
+
+Mostly draught breed, milk is secondary.
+
+Simulation Notes:
+
+Focus on work power rather than milk. Mortality extremely low, even under vector-borne disease outbreaks.
+
+SECTION B – BUFFALO BREEDS
+6. MURRAH
+
+Morphology:
+
+Jet black, compact frame, short tightly curled horns.
+
+Weight: cows 450–500 kg.
+
+Production:
+
+Milk yield 2000–2700 kg (elite >4000 kg).
+
+Fat 7–8 % → very high solids.
+
+Persistency excellent — use very low c value in lactation model.
+
+Reproduction:
+
+AFC 36–42 mo; ICI ~450 days.
+
+Simulation Notes:
+
+High economic value breed; keep “price multiplier” highest.
+
+7. JAFFARABADI
+
+Morphology:
+
+Largest buffalo, heavy drooping horns, massive head.
+
+Weight: 500–700 kg.
+
+Production:
+
+Milk 1500–2000 kg; fat 8–8.5 %.
+
+Strong draught capacity.
+
+Simulation Notes:
+
+Model low frequency population but very high fat% contribution.
+
+8. SURTI
+
+Morphology:
+
+Medium-sized, sickle-shaped horns, wedge-shaped body.
+
+Weight: 400–450 kg.
+
+Production:
+
+1200–1800 kg; fat 7.5–8 %.
+
+Simulation Notes:
+
+Give best “feed efficiency” coefficient — low input, moderate yield.
+
+9. BHADAWARI
+
+Morphology:
+
+Coppery coat, distinctive white markings (“kanth mala”).
+
+Weight: 350–400 kg.
+
+Production:
+
+800–1500 kg yield, but fat 9–10 %.
+
+Ideal for ghee production models.
+
+10. MEHSANA
+
+Morphology:
+
+Intermediate between Murrah & Surti.
+
+Black or brown coat, semi-curved horns.
+
+Production:
+
+Milk yield 1800–2400 kg; fat 6.5–7.5 %.
+
+Good persistency, moderate AFC (~40 mo).
+
+SECTION C – SIMULATION DESIGN NOTES
+
+Wood Model Parameters (Example):
+
+Murrah: a=11.0, b=0.20, c=0.0025
+
+Gir: a=9.5, b=0.22, c=0.0035
+
+Sahiwal: a=10.0, b=0.25, c=0.0032
+
+Bhadawari: a=7.0, b=0.20, c=0.0050 (steep decline)
+
+Nutrition Sensitivity Coefficients:
+
+Cattle: yield reduction 0.8× under low feed
+
+Buffalo: increase ICI by 60–90 days under severe underfeeding
+
+Fertility:
+
+Base conception rate 50–60 %; reduce 10–15 % under heat stress
+
+Mortality:
+
+Lowest: Tharparkar, Ongole
+
+Highest: Surti under humid conditions
