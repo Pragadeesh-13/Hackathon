@@ -217,8 +217,6 @@ python prototype.py --train-ratio 0.8 --val-ratio 0.1 --test-ratio 0.1
 
 **Supported image formats**: JPG, JPEG, PNG, WebP
 
-## 🎯 Hackathon Tips
-
 ### Quick Demo Setup
 1. Use existing Murrah images for initial demo
 2. Add 1-2 more breeds with 10+ images each
